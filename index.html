@@ -11,18 +11,27 @@
         <h1>TechStore SESI</h1>
 
         <section class="formulario">
-            <h3>dados da venda</h3>
-            <input type="text" id="inputNome" placeholder="nome do cliente">
-            <input type="number" id="InputIdade" placeholder="idade do cliente">
-            <input type="number" id="InputValor" placeholder="valor total (R$)">
+            <h3>Dados da venda</h3>
+            <input type="text" id="inputNome" placeholder="Nome do cliente">
+            <input type="number" id="InputIdade" placeholder="Idade do cliente">
+            <input type="number" id="InputValor" placeholder="Valor total (R$)">
 
             <select id="imputCupom">
-                <option value="false">nao possui cupom</option>
-                <option value="true">possui cupom (15% off)</option>
+                <option value="false">Nao possui cupom</option>
+                <option value="true">Possui cupom (15% off)</option>
             </select>
 
-            <button onclick="executarSistema()">finalizar vendas</button>
+            <button onclick="executarSistema()">Finalizar vendas</button>
+        </section>
+
+        <hr> 
+
+        <section>
+            <p id="mensagem-autorização">Preencha os dados acima.</p>
+            <ul id="lista-estoque"></ul>
+            <div id="relatorio-final" class="card" style="display: none;"></div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
