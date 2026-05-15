@@ -1,16 +1,5 @@
-h1 {
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 50px;
-}
-h3 {
-    color:rgb(207, 168, 168);
-    border-bottom: 1px solid rgb(207, 168, 168);
-    padding-bottom: 5xp;
-    text-align: center;
-}
 body {
-    background-color:#421010;
+    background-color: #121212;
     color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
@@ -18,62 +7,72 @@ body {
     padding: 20px;
 }
 
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color:rgb(207, 168, 168);
-}
-.container{
-    width:400px;
-    background-color: #5f2121;
+.container {
+    width: 400px;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 10px;
-    border: 4px solid#2c0707;
-    box-shadow: 0 10px 30px #111220;
+    border: 1px solid #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
-.card{
-    background: #ffffff;
+
+h1 {
+    color: #00ff88;
+    text-align: center;
+}
+
+h3 {
+    color: #00d4ff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: #252525;
     padding: 15px;
     border-radius: 5px;
-    border-left: 5xp solid #5f2121;
+    border-left: 5px solid #00ff88;
 }
-button{
+
+button {
     width: 100%;
     padding: 15px;
     margin-top: 20px;
-    background-color: rgb(207, 168, 168);
+    background-color: #00ff88;
     border: none;
-    border-radius: 5xp;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
-    
 }
-button:hover{
-    background-color: rgb(214, 139, 139);
+
+button:hover {
+    background-color: #00cc6e;
 }
 
 ul {
-    list-style: nome;
+    list-style: none;
     padding: 0;
 }
 
-li{
+li {
     padding: 5px 0;
-    color: #c6cac8;
+    color: #ccc;
 }
 
-input, select{
+input, select {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
-    border: 1px solid #3f1111;
-    background-color: #c78989;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #252525;
     color: white;
     box-sizing: border-box;
 }
-hr{
-    border:0;
-    border-top: 1xp solid #2c0707;
-    margin: 20xp 0;
+
+hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 20px 0;
 }
