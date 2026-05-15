@@ -32,7 +32,7 @@ p{
     box-shadow: 0 10px 30px #111220;
 }
 .card{
-    background: #252525;
+    background: #ffffff;
     padding: 15px;
     border-radius: 5px;
     border-left: 5xp solid #5f2121;
@@ -51,4 +51,29 @@ button{
 }
 button:hover{
     background-color: rgb(214, 139, 139);
+}
+
+ul {
+    list-style: nome;
+    padding: 0;
+}
+
+li{
+    padding: 5px 0;
+    color: #c6cac8;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #3f1111;
+    background-color: #c78989;
+    color: white;
+    box-sizing: border-box;
+}
+hr{
+    border:0;
+    border-top: 1xp solid #2c0707;
+    margin: 20xp 0;
 }
